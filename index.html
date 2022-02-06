@@ -16,7 +16,7 @@
 </head>
 <body>
     <!-- Start header -->
-    <header>
+    <header id="header">
         <div class="container">
            <div class="logo-content">
             <h1 class="logo">Zahra</h1>
@@ -24,14 +24,53 @@
            </div>
             <nav>
                 <ul>
-                    <li><a href="#">Articles</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">Other Links</a></li>
+                    <li><a href="#articles">Articles</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li class="other-Links-li"><a href="#other-links">Other Links</a>
+                        <!-- Start mega menu -->
+                        <div class="mega-menu">
+                            <div class="img-other-links">
+                                <img src="/img/other-links.jpg" alt="" class="other-links">
+                            </div>
+                            <div class="links-in-mega-menu">
+                                <ul>
+                                    <li><a href=""><i class="far fa-comments"></i>Testimonials</a></li>
+                                    <li><i class="far fa-calendar-alt"></i>Testimonials</li>
+                                    <li><i class="far fa-user"></i>Testimonials</li>
+                                    <li><i class="fas fa-server"></i>Testimonials</li>
+                                    <li><i class="far fa-building"></i>Testimonials</li>
+                                </ul>
+                                <ul>
+                                    <li> <a href="#"><i class="far fa-play-circle"></i>Testimonials</a></li>
+                                    <li><i class="far fa-check-circle"></i>Testimonials</li>
+                                    <li><i class="far fa-chart-bar"></i>Testimonials</li>
+                                    <li><i class="far fa-clipboard"></i>Testimonials</li>
+                                    <li><i class="fas fa-percent"></i>Testimonials</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- End mega menu -->
+                    </li>
                 </ul>
             </nav>
         </div>
     </header>
     <!-- End header -->
+    <!-- ----------------------------------------------------------------->
+    <!-- Start landing -->
+    <div class="landing">
+        <div class="container">
+            <div class="landing-text-content">
+                <h2>Welcome to <span>Zahra</span> Medical Center</h2>
+                <p>At the medical center, we provide medical advice and solutions based on the latest scientific studies. Using the latest medical devices and technologies.</p>
+            </div>
+            <div class="landing-img">
+                <img src="/img/landig-img.png" alt="">
+            </div>
+        </div>
+        <a class="down" href="#articles"><i class="fas fa-angle-double-down"></i></a>
+    </div>
+    <!-- End landing -->
 </body>
 </html>
